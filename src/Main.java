@@ -16,7 +16,7 @@ public class Main {
             System.out.print("Idade: ");
             int clientAge = sc.nextInt();
 
-            Sale s = new Sale(ticketQuantity, clientAge, ticketType);
+            Sale s = new Sale(clientAge, ticketQuantity, ticketType);
 
             System.out.println("\nResumo da Compra:");
             System.out.println("Tipo do ingresso: " + s.getCategory());
